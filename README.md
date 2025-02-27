@@ -10,3 +10,8 @@
 - section: uma seção em alguma área do site
 
 Mais tags: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+## Links para tatuar na sola do pé:
+
+- https://w3schools.com
+- https://developer.mozilla.org
