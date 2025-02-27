@@ -26,3 +26,13 @@ git clone https://github.com/andrenoelsenac/senac-web-2025.git
 ## Como funciona o fluxo do git
 
 ![Fluxo do git](https://th.bing.com/th/id/R.cec8adcdc71ce9c388b973c23ea6a490?rik=mya3AetRx1G2Vg&riu=http%3a%2f%2fdiogomg.github.io%2fgit-experience%2fimages%2fgit-local-remote.png&ehk=peCgL7wEAoB1dC6ql%2bjge%2bTYhTGRA7bh4IrWqLcAM3U%3d&risl=&pid=ImgRaw&r=0)
+
+## Importante
+
+O conteúdo da `master` contém os arquivos usados na Aula 02, onde aprendemos sobre `git` e `github`. Para visualizar as demais aulas, pode ver em outras `branches`.
+
+```sh
+git checkout aula-03
+```
+
+Ou pela interface do GitHub
