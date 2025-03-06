@@ -1,46 +1,30 @@
-# Aula 03 - HTML Semântico e CSS
+# Aula 04 - Seletores em CSS
 
-## Tags semânticas adicionadas no HTML5
+## Seletores simples
 
-- header: cabeçalho visual do site
-- main: área principal do site
-- nav: menu de navegação
-- aside: conteúdo "adicional" ao conteúdo principal
-- footer: rodapé do site
-- section: uma seção em alguma área do site
+- via tag: `p { color: red }`
+- via classe: `.vermelho { color: red }`
+- via id: `#paragrafo { color: red }`
 
-Mais tags: https://www.w3schools.com/html/html5_semantic_elements.asp
+## Seleção por atributos
 
-## Links para tatuar na sola do pé:
+- `[attributo]`: Seleciona elementos com o atributo
+- `[attributo=valor]`: Seleciona elementos com atributo com o valor especificado
+- `[attributo~=valor]`: Seleciona elementos com atributo contendo valor
+- `[attributo|=valor]`: Seleciona elementos com atributo que comece com o valor ou seja igual
+- `[attributo^=valor]`: Seleciona elementos com atributo que comece com o valor
+- `[attributo$=valor]`: Seleciona elementos com atributo que termine com o valor
+- `[attributo*=valor]`: Seleciona elementos com atributo que o valor contenha o termo
 
-- https://w3schools.com
-- https://developer.mozilla.org
+## Combinação de seletores e hierarquia
 
-## CSS - Cascading Styles Sheet
+- combinação (um ou outro ou outro...), separados por vírgula: `p, section, .itens { color: red; }`
+- hierarquia (elementos filhos): `div p a { color: red; }`
+- hierarquia direta (filho direto de outro elemento): `div > p { color: red }`
+- próximo irmão (próximo elemento no mesmo nível): `div + p { color: red }`
 
-- Seletores: Coisinhas que retornam um CONJUNTO de elementos do HTML
-- Par de propriedade e valor
+## Referências
 
-Exemplo:
+- [Seletores](https://www.w3schools.com/cssref/css_selectors.php)
+- [Combinadores](https://www.w3schools.com/cssref/css_ref_combinators.php)
 
-```css
-    p {
-        color: green;
-    }
-```
-
-### 3 formas de adicionar estilos
-
-- Inline: Dentro da tag (NÃO USEM)
-```html
-<h2 style="color: red">Teste</h2>
-```
-
-- No cabeçalho com a tag `style`
-- Em arquivo externo
-
-### Box Model - Modelo de caixa
-
-- margin
-- border
-- padding
