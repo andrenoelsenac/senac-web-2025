@@ -1,4 +1,13 @@
-# senac-web-2025
+# Introdução ao Desenvolvimento Web
+
+## Aulas
+
+- 01: Arquitetura cliente-servidor e HTML
+- 02: Git e GitHub
+- 03: Introdução ao CSS
+- 04: Seletores e combinação de seletores
+- 05: Flexbox
+
 Arquivos usados na disciplina Introdução ao Desenvolvimento Web
 
 Para copiar o repositório, digite:
