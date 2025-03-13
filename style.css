@@ -6,5 +6,37 @@
 header {
     background-color: rgb(148, 148, 230);
     background-image: url('imagens/foto-aerea.jpg');
+    background-size: cover;
+    background-position: 0 75%;
     height: 300px;
+}
+
+.coisas-legais img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.foto1 {
+    background-image: url("imagens/piscina.jpg");
+}
+
+.foto2 {
+    background-image: url("imagens/piscina-noite.jpg");
+}
+
+.foto3 {
+    background-image: url("imagens/toboagua.jpg");
+}
+
+.foto4 {
+    background-image: url("imagens/quarto.jpg");
+}
+
+.foto {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 0 50%;
 }
