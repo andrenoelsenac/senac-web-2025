@@ -9,12 +9,42 @@ header {
     background-size: cover;
     background-position: 0 75%;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
-.coisas-legais img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
+h1 {
+    padding: 20px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.coisas-legais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coisas-legais h2 {
+    margin: 10px 0 40px;
+    text-align: center;
+    padding-top: 50px;
+    border-top: 1px solid grey;
+    width: 50%;
+}
+.grid-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+    justify-content: center;
+    width: 100%;
 }
 
 .foto1 {
@@ -35,8 +65,61 @@ header {
 
 .foto {
     height: 200px;
-    width: 400px;
+    width: 40%;
     display: inline-block;
     background-size: cover;
-    border-radius: 0 50%;
+    border-radius: 20px;
+}
+
+.textos div {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.textos div:nth-child(1) {
+    background-color: yellow;
+}
+.textos div:nth-child(2) {
+    background-color: green;
+}
+.textos div:nth-child(3) {
+    background-color: blue;
+}
+.textos div:hover {
+    background-color: red;
+}
+.textos {
+    display: none;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #999;
+    display: block;
+    border-radius: 7px;
+    background-color: burlywood;
+}
+nav ul li a:hover {
+    color: red;
 }
