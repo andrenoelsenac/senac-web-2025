@@ -16,7 +16,7 @@ header {
     text-shadow: 2px 2px 2px black;
 }
 
-h1 {
+h1.titulo-principal {
     padding: 20px;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.4);
@@ -122,4 +122,17 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: red;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: black;
+    min-height: 300px;
+    margin-top: 30px;
+    padding: 30px
+}
+
+footer * {
+    color: white;
 }
