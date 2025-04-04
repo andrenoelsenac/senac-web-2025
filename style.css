@@ -1,0 +1,6 @@
+input, button {
+    width: 100px;
+    font-size: 2rem;
+    padding: 10px;
+    border: 1px solid blue;
+}
